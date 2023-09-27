@@ -1,0 +1,11 @@
+import numpy as np
+a= np.arange(10,100,10)
+print(a)
+b=np.where(a==30)
+print(b)
+c = np.where(a%30==0)
+print(c)
+d=np.searchsorted(a,45)
+print(d)
+e = np.searchsorted(a,[12,14,16,18])
+print(e)

@@ -1,0 +1,11 @@
+import numpy as np
+a = np.arange(10)
+print(a)
+b = np.split(a,2)
+print(b)
+c = np.array_split(a,4)
+print(c)
+d = np.arange(6).reshape(2,3)
+print(d)
+e = np.vsplit(d,2)
+print(e)
