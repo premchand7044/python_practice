@@ -1,0 +1,11 @@
+import pandas as pd
+s=pd.Series([10.5,20,30,40.5,50],index=['a','b','c','d','e'],name='Numbers')
+print(s)
+print(s.array)
+print(s.shape)
+print(s.dtype)
+print(s.nbytes)
+print(s.memory_usage())
+print(s.memory_usage(index=False))
+print(s.size)
+print(s.name)

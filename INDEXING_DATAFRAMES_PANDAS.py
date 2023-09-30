@@ -1,0 +1,12 @@
+import pandas as pd
+d=pd.read_excel("C:\\Users\\master\\Desktop\\sample.xlsx")
+df=pd.DataFrame(d)
+print(df)
+print(df.head())
+print(df.head(2))
+print(df.tail())
+print(df.describe())
+print(df.columns)
+print(df.shape)
+print(df['First Name'])
+print(df['First Name'].head())
