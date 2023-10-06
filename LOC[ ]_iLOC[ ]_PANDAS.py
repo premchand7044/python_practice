@@ -1,5 +1,5 @@
 import pandas as pd
-d=pd.read_excel('C:\\Users\\master\\Desktop\\sample.xlsx')
+d=pd.read_excel('C:\\Users\\master\\Desktop\\python_Pr\\sample.xlsx')
 df=pd.DataFrame(d)
 print(df)
 print(df.loc[4])

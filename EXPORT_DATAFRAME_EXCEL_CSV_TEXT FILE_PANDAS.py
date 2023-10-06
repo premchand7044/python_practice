@@ -1,5 +1,5 @@
 import pandas as pd
-d=pd.read_excel("C:\\Users\\master\\Desktop\gst.xlsx")
+d=pd.read_excel("C:\\Users\\master\\Desktop\\python_Pr\\gst.xlsx")
 df=pd.DataFrame(d)
 print(df)
 df['GST']=df['TOTAL']/15
